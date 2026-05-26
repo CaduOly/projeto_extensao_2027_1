@@ -1,0 +1,22 @@
+# Dependency directories
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build/Dist directories
+dist/
+/app/.angular/
+/app/dist/
+/api/dist/
+/api/node_modules/
+/app/node_modules/
+
+# MySQL local volume
+mysql_data/
