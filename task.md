@@ -3,13 +3,13 @@
 Acompanhamento do progresso de desenvolvimento do MVP EcoAlerta Local.
 
 ## 🛠️ Progresso Geral
-- `[ ]` **Etapa 1: Git e Configuração Inicial**
-  - `[ ]` Inicializar o repositório Git local no workspace
-  - `[ ]` Criar arquivo `.gitignore` global para o projeto
-- `[ ]` **Etapa 2: Infraestrutura (`/infra`)**
-  - `[ ]` Criar `docker-compose.yml` (MySQL, NestJS, Angular)
-  - `[ ]` Criar `Dockerfile` para o backend NestJS (`Dockerfile.api`)
-  - `[ ]` Criar `Dockerfile` para o frontend Angular (`Dockerfile.app`)
+- `[x]` **Etapa 1: Git e Configuração Inicial**
+  - `[x]` Inicializar o repositório Git local no workspace
+  - `[x]` Criar arquivo `.gitignore` global para o projeto
+- `[x]` **Etapa 2: Infraestrutura (`/infra`)**
+  - `[x]` Criar `docker-compose.yml` (MySQL, NestJS, Angular)
+  - `[x]` Criar `Dockerfile` para o backend NestJS (`Dockerfile.api`)
+  - `[x]` Criar `Dockerfile` para o frontend Angular (`Dockerfile.app`)
 - `[ ]` **Etapa 3: Backend (`/api`)**
   - `[ ]` Inicializar o projeto NestJS na pasta `/api`
   - `[ ]` Configurar o Prisma ORM e a conexão com o MySQL

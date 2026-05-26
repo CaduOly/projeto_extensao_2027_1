@@ -1,0 +1,17 @@
+FROM node:20-alpine
+
+WORKDIR /usr/src/app
+
+COPY package*.json ./
+RUN npm install
+
+COPY . .
+
+# Garante a geração do cliente Prisma se o arquivo existir
+RUN if [ -f prisma/schema.prisma ]; then npx prisma generate; fi
+
+RUN npm run build
+
+EXPOSE 3000
+
+CMD ["sh", "-c", "if [ -d prisma ]; then npx prisma db push; fi && npm run start:prod"]
