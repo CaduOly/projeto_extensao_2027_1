@@ -10,13 +10,13 @@ Acompanhamento do progresso de desenvolvimento do MVP EcoAlerta Local.
   - `[x]` Criar `docker-compose.yml` (MySQL, NestJS, Angular)
   - `[x]` Criar `Dockerfile` para o backend NestJS (`Dockerfile.api`)
   - `[x]` Criar `Dockerfile` para o frontend Angular (`Dockerfile.app`)
-- `[ ]` **Etapa 3: Backend (`/api`)**
-  - `[ ]` Inicializar o projeto NestJS na pasta `/api`
-  - `[ ]` Configurar o Prisma ORM e a conexão com o MySQL
-  - `[ ]` Criar o schema Prisma com a tabela `Alert` (Campos: id, description, latitude, longitude, photo, type, createdAt)
-  - `[ ]` Implementar o recurso de alertas (Module, Controller, Service)
-  - `[ ]` Implementar endpoints `POST /alerts` e `GET /alerts`
-  - `[ ]` Configurar CORS global na API NestJS
+- `[x]` **Etapa 3: Backend (`/api`)**
+  - `[x]` Inicializar o projeto NestJS na pasta `/api`
+  - `[x]` Configurar o Prisma ORM e a conexão com o MySQL
+  - `[x]` Criar o schema Prisma com a tabela `Alert` (Campos: id, description, latitude, longitude, photo, type, createdAt)
+  - `[x]` Implementar o recurso de alertas (Module, Controller, Service)
+  - `[x]` Implementar endpoints `POST /alerts` e `GET /alerts`
+  - `[x]` Configurar CORS global na API NestJS
 - `[ ]` **Etapa 4: Frontend (`/app`)**
   - `[ ]` Inicializar o projeto Angular na pasta `/app`
   - `[ ]` Configurar o Tailwind CSS no Angular
