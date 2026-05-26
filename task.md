@@ -26,7 +26,7 @@ Acompanhamento do progresso de desenvolvimento do MVP EcoAlerta Local.
   - `[x]` Criar componente de `Mural de Alertas (Feed)` com cards detalhados
   - `[x]` Criar componente do `Botão Flutuante (FAB)` e o `Modal de Cadastro de Alerta`
   - `[x]` Integrar a API nativa de Geolocalização (HTML5 Geolocation) e captura de fotos (Base64) no modal
-- `[ ]` **Etapa 5: Validação e Versionamento**
-  - `[ ]` Subir o ambiente completo no Docker Compose e validar a comunicação
-  - `[ ]` Validar persistência e listagem de alertas no frontend
-  - `[ ]` Finalizar o versionamento do projeto no Git
+- `[x]` **Etapa 5: Validação e Versionamento**
+  - `[x]` Subir o ambiente completo no Docker Compose e validar a comunicação
+  - `[x]` Validar persistência e listagem de alertas no frontend
+  - `[x]` Finalizar o versionamento do projeto no Git
