@@ -34,8 +34,7 @@ services:
       DATABASE_URL: "mysql://ecoalerta_user:ecoalerta_password@db:3306/ecoalerta_db"
       PORT: 3000
     depends_on:
-      db:
-        condition: service_healthy
+      - db
     networks:
       - ecoalerta_net
 

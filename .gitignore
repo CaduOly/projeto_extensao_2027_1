@@ -20,3 +20,6 @@ dist/
 
 # MySQL local volume
 mysql_data/
+
+# Standalone docker-compose binary
+infra/docker-compose
