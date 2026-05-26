@@ -17,15 +17,15 @@ Acompanhamento do progresso de desenvolvimento do MVP EcoAlerta Local.
   - `[x]` Implementar o recurso de alertas (Module, Controller, Service)
   - `[x]` Implementar endpoints `POST /alerts` e `GET /alerts`
   - `[x]` Configurar CORS global na API NestJS
-- `[ ]` **Etapa 4: Frontend (`/app`)**
-  - `[ ]` Inicializar o projeto Angular na pasta `/app`
-  - `[ ]` Configurar o Tailwind CSS no Angular
-  - `[ ]` Criar o modelo/interface do Alerta e o `AlertService` para requisições HTTP
-  - `[ ]` Criar componente do `Header` / Navegação
-  - `[ ]` Criar componente do `Mural de Dicas` (ODS 13 e Educação Climática)
-  - `[ ]` Criar componente de `Mural de Alertas (Feed)` com cards detalhados
-  - `[ ]` Criar componente do `Botão Flutuante (FAB)` e o `Modal de Cadastro de Alerta`
-  - `[ ]` Integrar a API nativa de Geolocalização (HTML5 Geolocation) e captura de fotos (Base64) no modal
+- `[x]` **Etapa 4: Frontend (`/app`)**
+  - `[x]` Inicializar o projeto Angular na pasta `/app`
+  - `[x]` Configurar o Tailwind CSS no Angular
+  - `[x]` Criar o modelo/interface do Alerta e o `AlertService` para requisições HTTP
+  - `[x]` Criar componente do `Header` / Navegação
+  - `[x]` Criar componente do `Mural de Dicas` (ODS 13 e Educação Climática)
+  - `[x]` Criar componente de `Mural de Alertas (Feed)` com cards detalhados
+  - `[x]` Criar componente do `Botão Flutuante (FAB)` e o `Modal de Cadastro de Alerta`
+  - `[x]` Integrar a API nativa de Geolocalização (HTML5 Geolocation) e captura de fotos (Base64) no modal
 - `[ ]` **Etapa 5: Validação e Versionamento**
   - `[ ]` Subir o ambiente completo no Docker Compose e validar a comunicação
   - `[ ]` Validar persistência e listagem de alertas no frontend
